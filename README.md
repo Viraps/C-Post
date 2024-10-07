@@ -28,9 +28,9 @@ This project is a C++ application that allows sending multiple HTTP POST request
 ### Clone the repository
 
 ```bash
-git clone https://github.com/viraps/C-post.git
-cd post-request-sender
-
+git clone https://github.com/viraps/C-Post.git
+cd C-Post
+g++ -o main main.cpp HttpPost.cpp -lwininet
 
 ```
 
