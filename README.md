@@ -11,17 +11,24 @@ This project is a C++ application that allows sending multiple HTTP POST request
 
 ## Installation
 
+
+```bash
+git clone https://github.com/viraps/C-Post.git
+cd C-Post
+g++ -o main main.cpp HttpPost.cpp -lwininet
+
+```
+
 ### Prerequisites
 
 - **C++17** or later
 - A C++ compiler (e.g., GCC, Clang, MSVC)
 - **lwininet** (for making HTTP POST requests)
-- *using g++*
-- ```g++ -o main main.cpp HttpPost.cpp -lwininet```
-  - Install on Ubuntu:  
-    ```bash
-    sudo apt-get install lwininet
+- *using gcc*
+  ```bash
+   g++ -o main main.cpp HttpPost.cpp -lwininet
     ```
+ 
   - Install on macOS using Homebrew:  
     ```bash
     brew install curl
