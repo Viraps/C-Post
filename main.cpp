@@ -6,7 +6,7 @@ int main() {
     std::string message;
     int numberOfRequests;
 
-    std::cout << "Type in a URL which you want to attack: ";
+    std::cout << "Type in a URL which you want to send messeages to:  ";
     std::cin >> url;
 
     std::cout << "Enter the message to send: ";
