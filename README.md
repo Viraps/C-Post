@@ -15,10 +15,12 @@ This project is a C++ application that allows sending multiple HTTP POST request
 
 - **C++17** or later
 - A C++ compiler (e.g., GCC, Clang, MSVC)
-- **libcurl** (for making HTTP POST requests)
+- **lwininet** (for making HTTP POST requests)
+- *using g++*
+- ```g++ -o main main.cpp HttpPost.cpp -lwininet```
   - Install on Ubuntu:  
     ```bash
-    sudo apt-get install libcurl4-openssl-dev
+    sudo apt-get install lwininet
     ```
   - Install on macOS using Homebrew:  
     ```bash
